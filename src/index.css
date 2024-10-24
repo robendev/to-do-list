@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        /* Colores de Fondo */
+        --background-primary: #f5f5f5;
+        --background-secondary: #e9ecef;
+
+        /* Colores de Texto */
+        --text-primary: #333333;
+        --text-secondary: #6c757d;
+
+        /* Colores de Botones */
+        --button-primary: #007bff;
+        --button-secondary: #6c757d;
+        --button-danger: #dc3545;
+
+        /* Colores de Enlaces */
+        --link-color: #007bff;
+
+        /* Colores de Bordes y Sombras */
+        --border-color: #dee2e6;
+        --shadow-color: #0000001a;
+    }
+}
+
+body {
+    background-color: var(--background-primary);
+}
